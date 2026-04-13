@@ -13,6 +13,8 @@ cask "indicia" do
 
   postflight do
     system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Indicia.app"]
+    system_command "/usr/bin/xattr", args: ["-d", "com.apple.provenance", "#{appdir}/Indicia.app"],
+                   must_succeed: false
   end
 
   zap trash: [
