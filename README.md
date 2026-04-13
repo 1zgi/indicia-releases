@@ -14,12 +14,9 @@ A minimal, floating desktop app (macOS, Linux, Windows) that improves your AI pr
 
 ## Requirements
 
-- [Ollama](https://ollama.com) running locally
+- macOS (Apple Silicon), Linux (x86_64), or Windows (x86_64)
 
-```bash
-ollama pull qwen3
-ollama pull qwen3-vl:4b   # optional, for image analysis
-```
+Ollama and the required AI models are installed automatically on first launch.
 
 ## Install
 
