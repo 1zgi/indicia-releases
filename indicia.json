@@ -1,27 +1,30 @@
 {
-    "version": "0.1.0",
-    "description": "Floating AI prompt improver and IELTS writing tutor",
-    "homepage": "https://github.com/1zgi/indicia-releases",
-    "license": "Freeware",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/1zgi/indicia-releases/releases/download/v0.1.0/Indicia-0.1.0-windows-amd64.zip",
-            "hash": "PLACEHOLDER_SHA256"
-        }
-    },
-    "extract_dir": "Indicia",
-    "bin": "main.exe",
-    "shortcuts": [
-        ["main.exe", "Indicia"]
-    ],
-    "checkver": {
-        "github": "https://github.com/1zgi/indicia-releases"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/1zgi/indicia-releases/releases/download/v$version/Indicia-$version-windows-amd64.zip"
-            }
-        }
+  "version": "0.1.0",
+  "description": "Floating AI prompt improver and IELTS writing tutor",
+  "homepage": "https://github.com/1zgi/indicia-releases",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/1zgi/indicia-releases/releases/download/v0.1.0/Indicia-0.1.0-windows-amd64.zip",
+      "hash": "fe09cbe89ef3b4c019fa4ca31c9add064069bf58c04415ab769b9d2629203622"
     }
+  },
+  "extract_dir": "Indicia",
+  "bin": "main.exe",
+  "shortcuts": [
+    [
+      "main.exe",
+      "Indicia"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/1zgi/indicia-releases"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/1zgi/indicia-releases/releases/download/v$version/Indicia-$version-windows-amd64.zip"
+      }
+    }
+  }
 }
