@@ -1,6 +1,6 @@
 cask "indicia" do
-  version "0.1.1"
-  sha256 "09b43439c71dfe7759d236fe48b576f9e74c43a4e1e224766cfc851cc097b2d3"
+  version "0.1.2"
+  sha256 "b2d7a42b4b8ac3c04b87b997cba56c90e801dd40d4d921685bd08378f962dd9f"
 
   url "https://github.com/1zgi/indicia-releases/releases/download/v#{version}/Indicia-#{version}-macos-arm64.zip"
   name "Indicia"
