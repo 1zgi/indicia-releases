@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Floating AI prompt improver and IELTS writing tutor",
   "homepage": "https://github.com/1zgi/indicia-releases",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/1zgi/indicia-releases/releases/download/v0.1.0/Indicia-0.1.0-windows-amd64.zip",
-      "hash": "fe09cbe89ef3b4c019fa4ca31c9add064069bf58c04415ab769b9d2629203622"
+      "url": "https://github.com/1zgi/indicia-releases/releases/download/v0.1.1/Indicia-0.1.1-windows-amd64.zip",
+      "hash": "e311de7374ed9408a2208df5e4de7c503a09b7aee8ac924cdf1c2fc94f36e64b"
     }
   },
   "extract_dir": "Indicia",
