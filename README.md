@@ -4,12 +4,13 @@ A minimal, floating desktop app (macOS, Linux, Windows) that improves your AI pr
 
 ## Features
 
-- **Prompt analysis** — refined text, IELTS band score, vocabulary upgrades, and prompt rating
-- **Image analysis** — paste an image with a text description to generate professional AI prompts using a vision model
+- **Prompt analysis** — refined text, IELTS band score, vocabulary upgrades, and prompt rating (powered by Qwen3)
+- **Vision mode** — drag, paste, or browse an image with a text description to generate professional AI prompts using Qwen3-VL vision model
 - **Real-time spellcheck** — underlines mistakes as you type, click for correction suggestions
-- **Translation** — translate prompts from any language to English using Helsinki-NLP OPUS-MT models
+- **Translation** — translate prompts from any language to English using Helsinki-NLP OPUS-MT models (downloaded on demand)
 - **Theming** — light/dark mode with 6 accent color palettes
 - **Global hotkey** — Cmd+Shift+P (macOS) or Ctrl+Shift+P (Linux/Windows)
+- **Fully offline** — all AI processing runs locally via Ollama, no data leaves your machine
 - **Native build** — compiled to native binary with Nuitka (no Python runtime needed)
 
 ## Requirements
