@@ -7,7 +7,13 @@ cask "indicia" do
   desc "Floating AI prompt improver and IELTS writing tutor"
   homepage "https://github.com/1zgi/indicia-releases"
 
+  depends_on macos: ">= :catalina"
+
   app "Indicia.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Indicia.app"]
+  end
 
   zap trash: [
     "~/Library/LaunchAgents/com.ctrlrings.indicia.plist",
