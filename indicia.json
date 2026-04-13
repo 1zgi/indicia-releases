@@ -2,7 +2,7 @@
     "version": "0.1.0",
     "description": "Floating AI prompt improver and IELTS writing tutor",
     "homepage": "https://github.com/1zgi/indicia-releases",
-    "license": "MIT",
+    "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://github.com/1zgi/indicia-releases/releases/download/v0.1.0/Indicia-0.1.0-windows-amd64.zip",

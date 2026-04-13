@@ -95,4 +95,4 @@ cp /usr/share/applications/indicia.desktop ~/.config/autostart/
 
 ## License
 
-MIT
+Proprietary — free to use, not open source.
