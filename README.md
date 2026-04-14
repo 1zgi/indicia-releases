@@ -53,6 +53,18 @@ To update: download the new `.deb` and run `dpkg -i` again.
 
 Pre-built binaries for macOS, Linux, and Windows are available on the [Releases](https://github.com/1zgi/indicia-releases/releases) page.
 
+## First launch
+
+Everything sets up automatically. Here's what happens:
+
+1. **Ollama** — if not installed, downloads and installs automatically (~500MB)
+2. **AI models** — pulls Qwen3 and Qwen3-VL from Ollama (progress shown in-app)
+3. **Translation engine** — creates an isolated Python environment and installs torch + transformers (progress shown in translation panel)
+
+The app is usable immediately while setup runs in the background. Prompt analysis works as soon as the AI models finish downloading.
+
+> **Note:** Translation requires Python 3.12+ on your system. macOS and Linux include it by default. Windows users may need to install it from [python.org](https://python.org).
+
 ## Windows — SmartScreen warning
 
 The Windows build is **not code-signed**, so SmartScreen will show a **"Windows protected your PC"** warning on first launch.
