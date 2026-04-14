@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/1zgi/indicia-releases/releases/download/v0.1.3/Indicia-0.1.3-windows-amd64.zip",
-      "hash": "0d6061bbe2d8262ad25bda5c243b1653066480df113ddbc3d1697999149fcf24"
+      "hash": "570668ed09cb1efee34c3835c04a429672bbe628bdb8e814673c2c7e15c98db3"
     }
   },
   "extract_dir": "Indicia",
