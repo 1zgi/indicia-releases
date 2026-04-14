@@ -55,13 +55,26 @@ Pre-built binaries for macOS, Linux, and Windows are available on the [Releases]
 
 ## First launch
 
-Everything sets up automatically. Here's what happens:
+Everything sets up automatically in the background:
 
 1. **Ollama** — if not installed, downloads and installs automatically (~500MB)
 2. **AI models** — pulls Qwen3 and Qwen3-VL from Ollama (progress shown in-app)
-3. **Translation engine** — creates an isolated Python environment and installs torch + transformers (progress shown in translation panel)
+3. **Translation engine** — creates an isolated Python environment with torch + transformers (progress shown in translation panel)
 
-The app is usable immediately while setup runs in the background. Prompt analysis works as soon as the AI models finish downloading.
+The app is usable immediately while setup runs in the background.
+
+### Model management
+
+- Click **⚙** to open Settings — view, switch, or pull Ollama models
+- Type `list` in the model name field to browse all available models from the Ollama library
+- Pull any model by name (e.g. `llama3.1`, `gemma3`, `deepseek-r1`)
+
+### Translation models
+
+- Click **文A** to open the translation panel
+- Click **Browse Models** to see available language pairs from HuggingFace
+- Pick a language (e.g. TR → EN) and click **Pull** to download (~300MB each)
+- Select the downloaded model and click **Translate**
 
 > **Note:** Translation requires Python 3.12+ on your system. macOS and Linux include it by default. Windows users may need to install it from [python.org](https://python.org).
 
