@@ -78,7 +78,7 @@ cp /Applications/Indicia.app/Contents/Resources/com.ctrlrings.indicia.plist ~/Li
 cp /usr/share/applications/indicia.desktop ~/.config/autostart/
 ```
 
-**Windows:** Add a shortcut to `main.exe` in `shell:startup` (press `Win+R`, type `shell:startup`).
+**Windows:** Add a shortcut to `Indicia.exe` in `shell:startup` (press `Win+R`, type `shell:startup`).
 
 ## Keyboard shortcuts
 
@@ -90,6 +90,30 @@ cp /usr/share/applications/indicia.desktop ~/.config/autostart/
 | `Shift+Enter` | New line |
 | `Escape` | Hide window |
 | `Cmd+Q` / `Ctrl+Q` | Quit |
+
+## Uninstall
+
+**macOS:**
+```bash
+brew uninstall --cask indicia
+brew untap 1zgi/indicia
+rm -rf ~/.cache/indicia                          # remove downloaded translation models
+rm -f ~/Library/LaunchAgents/com.ctrlrings.indicia.plist  # remove auto-start
+```
+
+**Windows:**
+```powershell
+scoop uninstall indicia
+scoop bucket rm indicia
+Remove-Item -Recurse "$env:USERPROFILE\.cache\indicia"   # remove downloaded translation models
+```
+
+**Linux:**
+```bash
+sudo dpkg -r indicia
+rm -rf ~/.cache/indicia                          # remove downloaded translation models
+rm -f ~/.config/autostart/indicia.desktop        # remove auto-start
+```
 
 ## License
 

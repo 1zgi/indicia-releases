@@ -10,10 +10,10 @@
     }
   },
   "extract_dir": "Indicia",
-  "bin": "main.exe",
+  "bin": "Indicia.exe",
   "shortcuts": [
     [
-      "main.exe",
+      "Indicia.exe",
       "Indicia"
     ]
   ],
